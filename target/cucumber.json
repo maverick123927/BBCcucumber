@@ -1,0 +1,1443 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T14:25:36.977Z",
+        "line": 3,
+        "name": "verify urabanladder Aboutus page",
+        "description": "",
+        "id": "about-us-page;verify-urabanladder-aboutus-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2557130300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open chrome browser",
+            "match": {
+              "location": "steps.Aboutstep.user_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8905983500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user use the URL",
+            "match": {
+              "location": "steps.Aboutstep.user_use_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2767813000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click about us option",
+            "match": {
+              "location": "steps.Aboutstep.user_click_about_us_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5014200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify the page title",
+            "match": {
+              "location": "steps.Aboutstep.user_verify_the_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3777458500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close chrome browser",
+            "match": {
+              "location": "steps.Aboutstep.close_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "About us page",
+    "description": "",
+    "id": "about-us-page",
+    "keyword": "Feature",
+    "uri": "file:Features/Aboutpage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T14:25:55.064Z",
+        "line": 13,
+        "name": "Successfully test emailbox with valid data",
+        "description": "",
+        "id": "emailbox;successfully-test-emailbox-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2078651300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start browser",
+            "match": {
+              "location": "steps.Emailstep.user_start_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3904507100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "steps.Emailstep.user_enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 345599600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the id jio123@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jio123@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Emailstep.user_enter_the_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 609974700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the subscribe button",
+            "match": {
+              "location": "steps.Emailstep.click_the_subscribe_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2622663300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user close the browser",
+            "match": {
+              "location": "steps.Emailstep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:26:04.633Z",
+        "line": 14,
+        "name": "Successfully test emailbox with valid data",
+        "description": "",
+        "id": "emailbox;successfully-test-emailbox-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1688631700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start browser",
+            "match": {
+              "location": "steps.Emailstep.user_start_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3272862200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "steps.Emailstep.user_enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114300900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the id rohit0807@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rohit0807@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Emailstep.user_enter_the_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 436160100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the subscribe button",
+            "match": {
+              "location": "steps.Emailstep.click_the_subscribe_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2616290000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user close the browser",
+            "match": {
+              "location": "steps.Emailstep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:26:12.770Z",
+        "line": 15,
+        "name": "Successfully test emailbox with valid data",
+        "description": "",
+        "id": "emailbox;successfully-test-emailbox-with-valid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1071260500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start browser",
+            "match": {
+              "location": "steps.Emailstep.user_start_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3677181300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "steps.Emailstep.user_enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97258100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the id sealnirnay@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sealnirnay@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Emailstep.user_enter_the_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 443185700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the subscribe button",
+            "match": {
+              "location": "steps.Emailstep.click_the_subscribe_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2639376500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user close the browser",
+            "match": {
+              "location": "steps.Emailstep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:26:20.701Z",
+        "line": 16,
+        "name": "Successfully test emailbox with valid data",
+        "description": "",
+        "id": "emailbox;successfully-test-emailbox-with-valid-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1086307400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start browser",
+            "match": {
+              "location": "steps.Emailstep.user_start_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6165057400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "steps.Emailstep.user_enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110294600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the id masmalo@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "masmalo@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Emailstep.user_enter_the_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 378005500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the subscribe button",
+            "match": {
+              "location": "steps.Emailstep.click_the_subscribe_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 978341700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user close the browser",
+            "match": {
+              "location": "steps.Emailstep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:26:29.428Z",
+        "line": 17,
+        "name": "Successfully test emailbox with valid data",
+        "description": "",
+        "id": "emailbox;successfully-test-emailbox-with-valid-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1483501000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start browser",
+            "match": {
+              "location": "steps.Emailstep.user_start_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3663994000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url",
+            "match": {
+              "location": "steps.Emailstep.user_enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113299100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the id subhojit125@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "subhojit125@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Emailstep.user_enter_the_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 431146500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the subscribe button",
+            "match": {
+              "location": "steps.Emailstep.click_the_subscribe_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2618100800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user close the browser",
+            "match": {
+              "location": "steps.Emailstep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Emailbox",
+    "description": "",
+    "id": "emailbox",
+    "keyword": "Feature",
+    "uri": "file:Features/Email.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T14:26:37.749Z",
+        "line": 14,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1081157000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3916151700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90240800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter table in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "table",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1195863500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2585772500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:26:46.629Z",
+        "line": 15,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 968028300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3310780300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81215700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter chair in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chair",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1191717600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2597224300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:26:54.785Z",
+        "line": 16,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1136814500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3257778900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86223000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter study table in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "study table",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1435992600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2636505000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:27:03.341Z",
+        "line": 17,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1132347300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3622116900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97258700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter office chair in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "office chair",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1349392200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837542600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:27:10.382Z",
+        "line": 18,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1039172400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3373954200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80212400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter sofa chair in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sofa chair",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1464112400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2628195600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:27:18.971Z",
+        "line": 19,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1460194000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7411273600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110286400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter coffee table in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "coffee table",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1431167800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2698396700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:27:32.084Z",
+        "line": 20,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1919365900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4693279900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100269700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter table wood in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "table wood",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1368509900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3479527300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:27:43.652Z",
+        "line": 21,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2293496400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4134580300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106291500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter table woodbase in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "table woodbase",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1057803900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2594300500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:27:53.841Z",
+        "line": 22,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1101051000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4265455500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78208000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter tableware in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tableware",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2180853400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2612285900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-20T14:28:04.081Z",
+        "line": 23,
+        "name": "successfully test  search box with valid data",
+        "description": "",
+        "id": "searchbox;successfully-test--search-box-with-valid-data;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1121886200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the browser",
+            "match": {
+              "location": "steps.Searchstep.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6112988500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "steps.Searchstep.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81216000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter bedroom in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bedroom",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 962558900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search Button",
+            "match": {
+              "location": "steps.Searchstep.click_the_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2603217300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the chrome browser",
+            "match": {
+              "location": "steps.Searchstep.user_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searchbox",
+    "description": "",
+    "id": "searchbox",
+    "keyword": "Feature",
+    "uri": "file:Features/Searchbox.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T14:28:14.965Z",
+        "line": 3,
+        "name": "Successfully check store function",
+        "description": "",
+        "id": "store-page;successfully-check-store-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1209680500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "steps.storestep.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6747557200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url in chrome browser",
+            "match": {
+              "location": "steps.storestep.user_enter_url_in_chrome_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2397218300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click store option",
+            "match": {
+              "location": "steps.storestep.user_click_store_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12033300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify the storepage title",
+            "match": {
+              "location": "steps.storestep.user_verify_the_storepage_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97257600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify storepage elements",
+            "match": {
+              "location": "steps.storestep.verify_storepage_elements()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 801129600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user off the browser",
+            "match": {
+              "location": "steps.storestep.user_off_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "store page",
+    "description": "",
+    "id": "store-page",
+    "keyword": "Feature",
+    "uri": "file:Features/Storepage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T14:28:26.232Z",
+        "line": 3,
+        "name": "verify the contact page",
+        "description": "",
+        "id": "contact-us-page;verify-the-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1763728400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open browser",
+            "match": {
+              "location": "steps.contactsstep.user_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4304477800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter url  \"https://www.urbanladder.com/\" in browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.urbanladder.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.contactsstep.user_enter_url_in_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760216700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on contact us page",
+            "match": {
+              "location": "steps.contactsstep.user_click_on_contact_us_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6012100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify the contact page title",
+            "match": {
+              "location": "steps.contactsstep.user_verify_the_contact_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 824496300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user quit the chrome browser",
+            "match": {
+              "location": "steps.contactsstep.user_quit_the_chrome_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "contact us page",
+    "description": "",
+    "id": "contact-us-page",
+    "keyword": "Feature",
+    "uri": "file:Features/contactpage.feature",
+    "tags": []
+  }
+]

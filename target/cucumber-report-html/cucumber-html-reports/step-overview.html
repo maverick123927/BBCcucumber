@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>CucumberWebGui</td>
+                          <td>1</td>
+                        <td>20 May 2022, 20:02</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">steps.Aboutstep.close_chrome_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="3777458500">3s 777ms</td>
+                <td class="duration" data-value="3777458500">3s 777ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Aboutstep.user_click_about_us_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="2767813000">2s 767ms</td>
+                <td class="duration" data-value="2767813000">2s 767ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Aboutstep.user_open_chrome_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="2557130300">2s 557ms</td>
+                <td class="duration" data-value="2557130300">2s 557ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Aboutstep.user_use_the_URL()</td>
+                <td>1</td>
+                <td class="duration" data-value="8905983500">8s 905ms</td>
+                <td class="duration" data-value="8905983500">8s 905ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Aboutstep.user_verify_the_page_title()</td>
+                <td>1</td>
+                <td class="duration" data-value="5014200">005ms</td>
+                <td class="duration" data-value="5014200">005ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Emailstep.click_the_subscribe_button()</td>
+                <td>5</td>
+                <td class="duration" data-value="2298472500">2s 298ms</td>
+                <td class="duration" data-value="459694500">459ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Emailstep.user_close_the_browser()</td>
+                <td>5</td>
+                <td class="duration" data-value="11474772300">11s 474ms</td>
+                <td class="duration" data-value="2294954460">2s 294ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Emailstep.user_enter_the_id(java.lang.String)</td>
+                <td>5</td>
+                <td class="duration" data-value="780752300">780ms</td>
+                <td class="duration" data-value="156150460">156ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Emailstep.user_enter_url()</td>
+                <td>5</td>
+                <td class="duration" data-value="20683602000">20s 683ms</td>
+                <td class="duration" data-value="4136720400">4s 136ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Emailstep.user_start_browser()</td>
+                <td>5</td>
+                <td class="duration" data-value="7408351900">7s 408ms</td>
+                <td class="duration" data-value="1481670380">1s 481ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Searchstep.click_the_search_Button()</td>
+                <td>10</td>
+                <td class="duration" data-value="13637972200">13s 637ms</td>
+                <td class="duration" data-value="1363797220">1s 363ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Searchstep.open_the_url()</td>
+                <td>10</td>
+                <td class="duration" data-value="44098359800">44s 098ms</td>
+                <td class="duration" data-value="4409835980">4s 409ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Searchstep.user_close_the_chrome_browser()</td>
+                <td>10</td>
+                <td class="duration" data-value="25272967700">25s 272ms</td>
+                <td class="duration" data-value="2527296770">2s 527ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Searchstep.user_enter_in_the_searchbox(java.lang.String)</td>
+                <td>10</td>
+                <td class="duration" data-value="911422200">911ms</td>
+                <td class="duration" data-value="91142220">091ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.Searchstep.user_launch_the_browser()</td>
+                <td>10</td>
+                <td class="duration" data-value="13253513000">13s 253ms</td>
+                <td class="duration" data-value="1325351300">1s 325ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.contactsstep.user_click_on_contact_us_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="760216700">760ms</td>
+                <td class="duration" data-value="760216700">760ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.contactsstep.user_enter_url_in_browser(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="4304477800">4s 304ms</td>
+                <td class="duration" data-value="4304477800">4s 304ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.contactsstep.user_open_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="1763728400">1s 763ms</td>
+                <td class="duration" data-value="1763728400">1s 763ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.contactsstep.user_quit_the_chrome_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="824496300">824ms</td>
+                <td class="duration" data-value="824496300">824ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.contactsstep.user_verify_the_contact_page_title()</td>
+                <td>1</td>
+                <td class="duration" data-value="6012100">006ms</td>
+                <td class="duration" data-value="6012100">006ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.storestep.user_click_store_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="2397218300">2s 397ms</td>
+                <td class="duration" data-value="2397218300">2s 397ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.storestep.user_enter_url_in_chrome_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="6747557200">6s 747ms</td>
+                <td class="duration" data-value="6747557200">6s 747ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.storestep.user_launch_chrome_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="1209680500">1s 209ms</td>
+                <td class="duration" data-value="1209680500">1s 209ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.storestep.user_off_the_browser()</td>
+                <td>1</td>
+                <td class="duration" data-value="801129600">801ms</td>
+                <td class="duration" data-value="801129600">801ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.storestep.user_verify_the_storepage_title()</td>
+                <td>1</td>
+                <td class="duration" data-value="12033300">012ms</td>
+                <td class="duration" data-value="12033300">012ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">steps.storestep.verify_storepage_elements()</td>
+                <td>1</td>
+                <td class="duration" data-value="97257600">097ms</td>
+                <td class="duration" data-value="97257600">097ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>26</td>
+              <td>91</td>
+              <td class="duration">2m 56s 757ms</td>
+              <td class="duration">1s 942ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
